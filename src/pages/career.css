@@ -1,0 +1,510 @@
+
+  #life-at-We3vision {
+    text-align: center;
+  }
+  #life-at-We3vision h2 {
+    font-size: 2.5rem;
+    margin-bottom: 80px;
+  }
+  .life-icon {
+    font-size: 2rem;
+  }
+  .life-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  .life-desc {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  .life-quote {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 40px;
+    font-style: italic;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .life-quote-author {
+    margin-top: 10px;
+    display: block;
+    font-weight: 600;
+  }
+  
+  /* Why Work With Us
+  .why-choose-us-section {
+    background: linear-gradient(90deg, #1b1c4a, #3d0c4e);
+    color: white;
+    padding: 80px 0;
+  }
+  .why-choose-us-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  .mil-feature-card {
+    padding: 20px;
+  } */
+  .career-cta {
+
+    padding: 100px 0;
+  }
+  
+  .career-cta-text {
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    line-height: 1.5;
+  }
+  
+  .career-cta-email {
+    color: #2b8cff;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .career-cta-email:hover {
+    text-decoration: underline;
+  }
+ 
+  /* Open Project Roles */
+  .modern-services-section-dark {
+    background: #f7eaf3;
+  }
+  .modern-service-card-dark {
+    height: 250px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  .modern-service-title-dark {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #2a2bc7;
+  }
+  .modern-service-meta {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  .modern-service-desc-dark {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  .modern-apply-btn {
+    display: inline-block;
+    background: transparent;
+    color: #2a2bc7;
+    border: 2px solid #2a2bc7;
+    padding: 6px 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  .modern-apply-btn:hover {
+    background: #2a2bc7;
+    color: white;
+  }
+
+  
+  /* FAQ Section */
+
+  #faq h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  .mil-accordion-group {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+  }
+  .mil-accordion-head {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.95rem;
+    width: 90%;
+    word-spacing: 0.4rem;
+  }
+  .mil-symbol {
+    float: right;
+  }
+  .mil-plus,
+  .mil-minus {
+    font-size: 1.2rem;
+  }
+  .mil-accordion-content {
+    padding-top: 10px;
+    font-size: 0.95rem;
+    color: #555;
+  }
+/* Hide minus by default */
+.mil-minus {
+    display: none;
+  }
+  
+  /* When active, show minus and hide plus */
+  .mil-accordion-group.active .mil-minus {
+    display: inline;
+  }
+  .mil-accordion-group.active .mil-plus {
+    display: none;
+  }
+  .mil-symbol {
+    position: absolute;
+    right: 20px; /* space from the right side */
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    color: #2A2BC7; /* match theme blue */
+    font-size: 18px;
+  }
+  
+  /* Make sure FAQ header is positioned relative */
+  .mil-accordion-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 15px 50px 15px 0; /* space for the icon */
+    /* border-bottom: 1px solid #ddd; */
+    cursor: pointer;
+  }
+      
+  /* Container for the project roles */
+.project-roles-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8f9ff 0%, #f0f4ff 100%);
+}
+
+/* Section title for Open Project Roles */
+.project-roles-section h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #2A2BC7 0%, #6366f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.project-roles-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #2A2BC7, #6366f1);
+  border-radius: 2px;
+}
+
+/* Each role card */
+.role-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 32px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+}
+
+.role-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #2A2BC7, #6366f1, #8b5cf6);
+  border-radius: 24px 24px 0 0;
+}
+
+/* Hover effect */
+.role-card:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(42, 43, 199, 0.15);
+  border-color: rgba(42, 43, 199, 0.1);
+}
+
+/* Card title */
+.role-card h5 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #2A2BC7 0%, #6366f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 16px;
+  line-height: 1.3;
+}
+
+/* Card meta information */
+.role-card p {
+  color: #64748b;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.role-card p strong {
+  color: #334155;
+  font-weight: 600;
+}
+
+/* Card description */
+.role-card p:not(:has(strong)) {
+  color: #475569;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  flex-grow: 1;
+}
+
+/* Apply button container */
+.role-card .btn {
+  align-self: flex-start;
+  border-radius: 50px;
+  padding: 12px 28px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  border: none;
+  background: linear-gradient(135deg, #2A2BC7 0%, #6366f1 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(42, 43, 199, 0.3);
+}
+
+.role-card .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(42, 43, 199, 0.4);
+  background: linear-gradient(135deg, #1e1b9e 0%, #4f46e5 100%);
+}
+
+.role-card .btn:active {
+  transform: translateY(0);
+}
+
+/* Disabled button state */
+.role-card .btn:disabled {
+  background: #e2e8f0;
+  color: #94a3b8;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.role-card .btn:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+/* Job Meta Information */
+.job-meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.job-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.job-department {
+  background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+  color: #3730a3;
+  border: 1px solid #c7d2fe;
+}
+
+.job-employment-type {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+
+.job-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.job-tags .job-tag {
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+  color: #374151;
+  border: 1px solid #d1d5db;
+  font-size: 0.75rem;
+  padding: 3px 10px;
+}
+
+/* Job Description */
+.job-description {
+  color: #475569;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+/* Deadline Info */
+.deadline-info {
+  background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+  border: 1px solid #fecaca;
+  border-radius: 12px;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  font-size: 0.85rem;
+  color: #991b1b;
+}
+
+.deadline-info strong {
+  color: #7f1d1d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .project-roles-section {
+    padding: 60px 0;
+  }
+  
+  .project-roles-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+  }
+  
+  .role-card {
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .role-card h5 {
+    font-size: 1.2rem;
+  }
+  
+  .job-meta {
+    gap: 6px;
+  }
+  
+  .job-tag {
+    font-size: 0.75rem;
+    padding: 3px 10px;
+  }
+}
+  
+  .life-section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .life-heading {
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: #2A2BC7;
+  }
+  
+  .life-heading span {
+    font-weight: 300;
+  }
+  
+  .life-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .life-icon {
+    font-size: 2rem;
+    margin-right: 15px;
+  }
+  
+  .life-title {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #5a5a5a;
+  }
+  
+  .life-desc {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .life-quote {
+    margin-top: 40px;
+    font-style: italic;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .life-quote-author {
+    font-weight: bold;
+    color: #2A2BC7;
+  }
+  .apply-section {
+    background: linear-gradient(90deg, #2b124c, #1f033d);
+    padding: 60px 0;
+  }
+  
+  .apply-text {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .apply-email {
+    color: #4a90ff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .apply-email:hover {
+    text-decoration: underline;
+  }
+  
+  .apply-btn {
+    display: inline-block;
+    background: linear-gradient(90deg, #ff6ec7, #6b6bff);
+    color: white;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    transition: 0.3s ease;
+  }
+  
+  .apply-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+.ten p{
+  text-align: justify;
+}
+.ten h2{
+  padding-top: 40px;
+  font-size: 2.8rem;
+  line-height: 1.2;
+}

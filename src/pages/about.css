@@ -1,0 +1,1300 @@
+/* Hide horizontal scrollbar and prevent horizontal overflow */
+
+.mil-content {
+  /* max-width: 1400px; */
+  margin: 0 auto;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Responsive main content width and padding */
+.mil-content {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.six{
+  background: linear-gradient(135deg, #f5f7fa 0%, #f7e1f5 40%, #e0f7fa 100%)!important;
+}
+.six h1{
+  font-size: 2.8rem;
+}
+/* Responsive max-width for smaller screens */
+
+
+/* About Page Styles - Consistent with index.css */
+
+.mil-muted {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Inter", sans-serif;
+}
+
+.mil-thin {
+  font-weight: 100;
+  font-family: "Inter", sans-serif;
+}
+
+.mil-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(135deg, #A80C4C, #090939, #421256, #531C9B); */
+}
+
+/* Hero Section Responsive */
+.mil-banner-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  padding: 120px 0;
+}
+.mil-banner-content h1 {
+  font-size: 2.2rem;
+  /* text-align: center; */
+}
+@media (min-width: 576px) {
+  .mil-banner-content h1 {
+    font-size: 2.8rem;
+  }
+}
+@media (min-width: 992px) {
+  .mil-banner-content h1 {
+    font-size: 4rem;
+  }
+}
+
+.mil-light-soft {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Button Styles */
+.mil-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 20px;
+  background: linear-gradient(135deg, #F3D7FF, #E2BAD2, #F9C5C5, #C9C9F4);
+  color: #333;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.mil-button1{
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  letter-spacing: 0.5px;
+}
+.mil-button1 span{
+  color: white!important;
+}
+
+.mil-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  color: #333;
+  text-decoration: none;
+  background: linear-gradient(135deg, #F3D7FF, #E2BAD2, #F9C5C5, #C9C9F4);
+}
+
+.mil-button-group {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.mil-button-arrow {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mil-button-arrow svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.mil-button-arrow1 svg {
+  width: 16px;
+  height: 16px;
+  background-color: #000;
+}
+
+.mil-button.outline {
+  background: linear-gradient(135deg, #F3D7FF, #E2BAD2, #F9C5C5, #C9C9F4);
+  border: 2px solid transparent;
+  color: #333;
+}
+
+.mil-button.outline:hover {
+  background: linear-gradient(135deg, #F3D7FF, #E2BAD2, #F9C5C5, #C9C9F4);
+  color: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.mil-button.mil-outline {
+  background: linear-gradient(135deg, #F3D7FF, #E2BAD2, #F9C5C5, #C9C9F4);
+  border: 2px solid transparent;
+  color: #333;
+}
+
+.mil-button.mil-outline:hover {
+  background: linear-gradient(135deg, #F3D7FF, #E2BAD2, #F9C5C5, #C9C9F4);
+  color: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.mil-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.mil-link:hover {
+  color: #f093fb;
+  text-decoration: none;
+  transform: translateX(5px);
+}
+
+/* Section Spacing */
+.mil-p-120-30, .mil-p-120-0, .mil-p-120-60 {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .mil-p-120-30, .mil-p-120-0, .mil-p-120-60 {
+    padding-top: 90px;
+    padding-bottom: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .mil-p-120-30, .mil-p-120-0, .mil-p-120-60 {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+}
+
+.mil-mb-90 {
+  margin-bottom: 90px;
+}
+
+.mil-mb-60 {
+  margin-bottom: 60px;
+}
+
+.mil-mb-30 {
+  margin-bottom: 30px;
+}
+
+.mil-mb-20 {
+  margin-bottom: 20px;
+}
+
+.mil-mb-15 {
+  margin-bottom: 15px;
+}
+
+.mil-mr-30 {
+  margin-right: 30px;
+}
+
+/* Typography */
+.mil-up {
+  animation: fadeInUp 1s ease-out;
+  color: #2A2BC7!important;
+}
+
+.mil-muted {
+  color: #fff;
+}
+
+.mil-thin {
+  font-weight: 100;
+}
+
+.mil-quote {
+  color: #2A2BC7!important;
+}
+
+.mil-list {
+  list-style: none;
+  padding: 0;
+}
+
+.mil-list li {
+    font-size: 18px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.mil-list li:before {
+  content: "•";
+  color: #2A2BC7!important;
+  position: absolute;
+  left: 0;
+}
+
+/* About Photo */
+.mil-about-photo {
+  position: relative;
+}
+
+.mil-lines-place {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+
+.mil-scale {
+  transition: transform 0.3s ease;
+}
+
+.mil-scale:hover {
+  transform: scale(1.05);
+}
+@media (min-width:1400px) {
+  
+  .mil-services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .mil-service-card-sm {
+    width: 25vw;
+    height: 18vh;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+}
+@media (min-width:1300px) and (max-width:1400px) {
+  
+  .mil-services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .mil-service-card-sm {
+    width: 27vw!important;
+    height: 22vh;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+}
+/* Services We Offer Responsive */
+
+@media (max-width: 1300px) {
+  .mil-services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+  }
+  .mil-service-card-sm {
+    padding: 16px;
+    width:28vw!important;
+    height: 20vh!important;
+  }
+}
+@media (max-width: 1195px) and (min-width:991px) {
+  .mil-services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+  }
+  .mil-service-card-sm {
+    width:25vw!important;
+    height: 22vh!important;
+  }
+}
+@media (max-width: 991px) {
+  .mil-services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  .mil-service-card-sm {
+    padding: 16px;
+    width: 25vw!important;
+    height:25vh!important;
+  }
+}
+
+@media (max-width:800px) {
+  .mil-services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  .mil-service-card-sm {
+    padding: 16px;
+    width: 29vw!important;
+    height: 25vh!important;
+  }
+  
+}
+@media (max-width:765px) {
+  .mil-services-grid {
+    grid-template-columns: 1fr!important;
+    gap: 5px;
+    margin-top: 24px;
+  }
+  .mil-service-card-sm {
+    padding: 16px;
+   width: 90vw!important;
+   height: 18vh!important;
+  }
+  .mil-muted{
+    padding-left: 0px !important;
+  }
+  .mil-up p{
+    text-align: left!important;
+  }
+  
+}
+@media (max-width: 575px) {
+  .mil-services-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 24px;
+  }
+  .mil-service-card-sm {
+    padding: 16px;
+    padding: 10px;
+    height: 15vh!important;
+  }
+  .col-lg-4{
+    padding-left: 0!important;
+  }
+  .mil-complex-text h2{
+    text-align: center;
+    font-size: 45px!important;
+  }
+  .mil-muted{
+    padding-left: 0px !important;
+  }
+  .mil-up p{
+    text-align: justify!important;
+  }
+}
+
+.mil-service-card-sm:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.mil-service-card-sm:hover::before {
+  opacity: 1;
+}
+
+.mil-service-card-sm h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  line-height: 1.3;
+}
+
+.mil-service-card-sm p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Responsive styles for services */
+@media (max-width: 1200px) {
+  .mil-service-card-sm h5 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mil-service-card-sm {
+    padding: 25px;
+  }
+  
+  .mil-service-card-sm h5 {
+    font-size: 16px;
+  }
+  
+  .mil-service-card-sm p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .mil-services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  .mil-service-card-sm {
+    padding: 20px;
+  }
+  
+  .mil-service-card-sm h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .mil-service-card-sm p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 575px) {
+  .mil-services-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  .mil-service-card-sm {
+    padding: 18px;
+  }
+  
+  .mil-service-card-sm h5 {
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+  
+  .mil-service-card-sm p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 375px) {
+  .mil-service-card-sm {
+    padding: 15px;
+  }
+  
+  .mil-service-card-sm h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .mil-service-card-sm p {
+    font-size: 10px;
+  }
+}
+
+/* Dark Gradient Background */
+.mil-dark-bg {
+  background: linear-gradient(135deg, #A80C4C, #090939, #421256, #531C9B);
+  color: #fff;
+  position: relative;
+}
+
+.mil-dark-gradient {
+  background: linear-gradient(135deg, #A80C4C, #090939, #421256, #531C9B);
+  color: #fff;
+  position: relative;
+}
+
+.mil-dark-gradient .mil-muted {
+  color: #fff;
+}
+
+.mil-dark-gradient .mil-h1,
+.mil-dark-gradient .mil-h2,
+.mil-dark-gradient .mil-h3,
+.mil-dark-gradient .mil-h4,
+.mil-dark-gradient .mil-h5,
+.mil-dark-gradient .mil-h6 {
+  color: #fff;
+}
+
+.mil-dark-gradient .mil-light-soft {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.mil-dark-gradient .mil-link {
+  color: #fff;
+}
+
+.mil-dark-gradient .mil-link:hover {
+  color: #f093fb;
+}
+
+.mil-dark-gradient .mil-button.outline {
+  background: linear-gradient(135deg, #F3D7FF, #E2BAD2, #F9C5C5, #C9C9F4);
+  border-color: transparent;
+  color: #333;
+}
+
+.mil-dark-gradient .mil-button.outline:hover {
+  background: linear-gradient(135deg, #F3D7FF, #E2BAD2, #F9C5C5, #C9C9F4);
+  color: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Complex Text Styling */
+.mil-complex-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.mil-complex-text h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+
+.mil-complex-text h2 .mil-thin {
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: none;
+}
+
+/* H1 Styling */
+.mil-h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+.mil-center {
+  text-align: center;
+}
+
+ /* Timeline wrapper */
+.mil-timeline-horizontal-cards {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Items container */
+.mil-timeline-horizontal-cards-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* gap: 40px; */
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Each timeline item */
+.mil-timeline-horizontal-cards-item {
+  position: relative;
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+  max-width: 300px;
+}
+.mil-timeline-horizontal-cards-card.top{
+  margin-top: -80px;
+}
+.mil-timeline-horizontal-cards-card.bottom{
+  margin-top: 70px;
+}
+/* Card styling */
+.mil-timeline-horizontal-cards-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  width: 18vw;
+  height: 25vh;
+  transition: all 0.3s ease;
+  color: #111;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.mil-timeline-horizontal-cards-card.top::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 40px;
+  background-color: #2A2BC7;
+  z-index: 1;
+}
+.mil-timeline-horizontal-cards-card.bottom::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 40px;
+  background-color: #2A2BC7;
+  z-index: 1;
+}
+
+
+
+.mil-timeline-horizontal-cards-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* Year/Date styling */
+.mil-timeline-horizontal-cards-date {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #2A2BC7;
+  margin-bottom: 10px;
+}
+
+/* Dot between line and card */
+.mil-timeline-horizontal-cards-card.top::before {
+  content: '';
+  position: absolute;
+  top: 244px; /* Always stay aligned with the center line */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border: 3px solid #2A2BC7;
+  border-radius: 50%;
+  z-index: 3;
+}
+.mil-timeline-horizontal-cards-card.bottom::before {
+  content: '';
+  position: absolute;
+  bottom: 228px; /* Always stay aligned with the center line */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border: 3px solid #2A2BC7;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.mil-timeline-horizontal-cards-line {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #2A2BC7;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+.timeline-mobile {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  .timeline-desktop {
+    display: none;
+  }
+
+  .timeline-mobile {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  /* Make heading span full width in the grid */
+  .timeline-mobile h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+
+  /* 2 columns for 1200px → 901px */
+  @media (min-width: 767px) {
+    .timeline-mobile {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .timeline-mobile h1 {
+      grid-column: 1 / 3; /* span both columns */
+    }
+  }
+
+  /* 1 column for ≤900px */
+  @media (max-width: 767px) {
+    .timeline-mobile {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Card styling */
+  .mobile-timeline-item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  }
+
+  .mobile-timeline-item .year {
+    display: inline-block;
+    background: #2A2BC7;
+    color: white;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .mobile-timeline-item p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+  }
+}
+
+
+
+/* --- Why Choose Us Section --- */
+.why-choose-us-section {
+  background: linear-gradient(135deg, #A80C4C, #090939, #421256, #531C9B);
+  padding: 90px 0 80px 0;
+  text-align: center;
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.why-choose-us-title {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.why-choose-us-title .mil-thin {
+  font-weight: 100!important;
+  color: #fff;
+  opacity: 0.7;
+  letter-spacing: 2px;
+}
+.mil-feature-card {
+  background: none;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.mil-feature-card h5 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  letter-spacing: 0.5px;
+}
+.mil-feature-card p {
+  color: #bdb9c7;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 0 auto;
+  max-width: 320px;
+  line-height: 1.7;
+}
+@media (max-width: 991px) {
+  .why-choose-us-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  .mil-feature-card h5 {
+    font-size: 1.2rem;
+  }
+  .mil-feature-card p {
+    font-size: 1rem;
+    max-width: 90vw;
+  }
+}
+@media (max-width: 767px) {
+  .why-choose-us-section {
+    padding: 50px 0 40px 0;
+  }
+  .why-choose-us-title {
+    font-size: 2rem;
+    margin-bottom: 28px;
+  }
+  .mil-feature-card {
+    margin-bottom: 32px;
+    margin-right: 30px;
+    text-align: center;
+  }
+}
+
+/* --- Our Expertise, Your Success (Mindmap Premium) Section --- */
+.mindmap-premium-bg {
+  background: linear-gradient(135deg, #f5f6fa 0%, #e9e6fa 100%);
+  border-radius: 36px;
+  box-shadow: 0 8px 40px rgba(79,91,232,0.08), 0 2px 8px rgba(79,91,232,0.06);
+  padding: 60px 0 60px 0;
+  margin: 0 auto 40px auto;
+  max-width: 1200px;
+}
+.mindmap-premium-heading-wrap {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.mindmap-premium-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #2A2BC7;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.mindmap-premium-desc {
+  color: #7b7b93;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.mindmap-premium-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 32px;
+  width: 100%;
+  margin-bottom:50px ;
+}
+.mindmap-premium-col {
+  flex: 1 1 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 240px;
+  max-width: 350px;
+  padding: 0 10px;
+}
+.mindmap-premium-center {
+  flex: 0 0 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  max-width: 340px;
+}
+.mindmap-premium-heading {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.mindmap-premium-subheading {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #e53935;
+  margin-bottom: 18px;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+.mindmap-premium-blue {
+  color: #057999 !important;
+}
+.mindmap-premium-list {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+/* Premium row: icon and text perfectly aligned in one line */
+.premium-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  font-size: 1.08rem;
+  vertical-align: middle;
+}
+/* Icon circle: ensure all icons are the same size and perfectly centered */
+.icon-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 10px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  line-height: 1;
+  flex-shrink: 0;
+  text-align: center;
+  aspect-ratio: 1 / 1;
+}
+
+.icon-circle svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+@media (max-width: 767px) {
+  .icon-circle {
+    width: 26px;
+    height: 26px;
+    font-size: 15px;
+  }
+  .icon-circle svg {
+    width: 15px;
+    height: 15px;
+  }
+}
+.icon-x {
+  background: #fff0f0;
+  color: #e53935;
+  border: 2px solid #e53935;
+}
+.icon-check {
+  background: #e6f7f5;
+  color: #057999;
+  border: 2px solid #057999;
+}
+.premium-text {
+  vertical-align: middle;
+  display: inline-block;
+}
+.highlight-red {
+  color: #e53935;
+  font-weight: 700;
+}
+.highlight-blue {
+  color: #057999;
+  font-weight: 700;
+}
+.mindmap-premium-col .mindmap-premium-heading {
+  margin-bottom: 0px;
+}
+.mindmap-premium-col .mindmap-premium-subheading {
+  margin-bottom: 18px;
+}
+.mindmap-premium-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  max-width: 340px;
+  margin: 0 10px;
+}
+.mindmap-premium-circle {
+  background: #fff;
+  border-radius: 50%;
+  width: 210px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 0 #2A2BC7, 0 0 40px 10px #2A2BC722;
+  margin: 0 auto 18px auto;
+  position: relative;
+  animation: mindmap-glow 2.5s infinite alternate;
+}
+@keyframes mindmap-glow {
+  0% { box-shadow: 0 0 0 0 #2A2BC7, 0 0 40px 10px #2A2BC722; }
+  100% { box-shadow: 0 0 0 0 #2A2BC7, 0 0 60px 20px #2A2BC744; }
+}
+.mindmap-premium-circle-text {
+  color: #222;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.mindmap-premium-logo img {
+  display: block;
+  margin: 0 auto;
+  width: 48px;
+  height: 48px;
+}
+/* Responsive Styles */
+@media (max-width: 1100px) {
+  .mindmap-premium-flex {
+    gap: 12px;
+  }
+  .mindmap-premium-col, .mindmap-premium-center {
+    min-width: 180px;
+    max-width: 100vw;
+    padding: 0 2px;
+  }
+  .mindmap-premium-circle {
+    width: 160px;
+    height: 160px;
+  }
+}
+@media (max-width: 915px) {
+  .mindmap-premium-bg {
+    padding: 30px 0 30px 0;
+    border-radius: 18px;
+  }
+  .mindmap-premium-title {
+    font-size: 2rem;
+  }
+  .mindmap-premium-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .mindmap-premium-col, .mindmap-premium-center {
+    min-width: 0;
+    max-width: 100vw;
+    width: 100%;
+    align-items: left;
+    text-align: left;
+    padding: 0;
+  }
+  .mindmap-premium-heading, .mindmap-premium-subheading {
+    text-align: left;
+    width: 100%;
+  }
+  .premium-row {
+    justify-content: left;
+    text-align: left;
+  }
+  .mindmap-premium-list{
+    text-align: left;
+    padding-right: 20px;
+  }
+  .mindmap-premium-circle {
+    width: 200px;
+    height: 200px;
+  }
+  .mindmap-premium-logo img {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+/* --- CTA: Let's build the future together (Scoped) --- */
+.cta-future-section {
+  background: linear-gradient(120deg, #f3f4fa 0%, #eaf1fa 100%);
+  /* padding: 90px 0 90px 0; */
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  border-radius: 0;
+  box-shadow: none;
+}
+.cta-future-section .cta-suptitle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #2A2BC7;
+  font-weight: 500;
+  margin-bottom: 18px;
+  margin-top: 0;
+  letter-spacing: 0.5px;
+  position: relative;
+  width: 100%;
+}
+.cta-future-section .cta-suptitle:after {
+  content: '';
+  display: inline-block;
+  height: 1px;
+  width: 180px;
+  background: #dbe2ef;
+  margin-left: 18px;
+  vertical-align: middle;
+  position: relative;
+  top: -6px;
+}
+.cta-future-section .cta-main-heading {
+  color: #2A2BC7;
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  letter-spacing: 1px;
+  line-height: 1.1;
+}
+.cta-future-section .cta-main-heading .mil-thin {
+  font-weight: 100;
+  color: #2A2BC7;
+  opacity: 0.7;
+  font-size: 1em;
+}
+.cta-future-section .cta-btn-wrap {
+  text-align: center;
+  margin-top: 40px;
+}
+.cta-future-section .cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 38px 0 38px;
+  height: 70px;
+  min-width: 220px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #F3D7FF, #E2BAD2, #F9C5C5, #C9C9F4);
+  color: #111;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  box-shadow: 0 4px 32px 0 #a18cd133;
+  border: none;
+  margin: 0 auto;
+  transition: box-shadow 0.2s, transform 0.2s;
+  position: relative;
+  text-decoration: none;
+}
+.cta-future-section .cta-btn:hover {
+  box-shadow: 0 8px 40px 0 #a18cd155;
+  transform: translateY(-2px) scale(1.03);
+}
+.cta-future-section .cta-btn span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #111;
+  letter-spacing: 2px;
+  margin-right: 24px;
+}
+.cta-future-section .cta-btn-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #A80C4C, #090939, #421256, #531C9B);
+  margin-left: 0;
+  box-shadow: 0 2px 12px #2A2BC733;
+}
+.cta-future-section .cta-btn-arrow svg {
+  width: 22px;
+  height: 22px;
+  fill: #fff;
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  .cta-future-section .cta-main-heading {
+    font-size: 2.5rem;
+  }
+  .cta-future-section .cta-suptitle:after {
+    width: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .cta-future-section {
+    padding: 50px 0 50px 0;
+  }
+  .cta-future-section .cta-main-heading {
+    font-size: 1.5rem;
+  }
+  .cta-future-section .cta-suptitle:after {
+    width: 30px;
+  }
+}
+
+body{
+  background: linear-gradient(135deg, #f5f7fa 0%, #f7e1f5 40%, #e0f7fa 100%);
+}
+.mil-service-card-sm {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mil-service-card-sm h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.mil-service-card-sm p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Mobile <375px */
+@media (max-width: 1280px) {
+  .mil-service-card-sm {
+    padding: 15px;
+    width: 100%!important;
+    height: 100%!important;
+  }
+}
+
+@media (max-width: 600px) {
+  .mil-service-card-sm {
+    padding: 15px;
+    width: 100%!important;
+    height: 20vh!important;
+  }
+}
+@media (max-width: 376px) {
+  .mil-service-card-sm {
+    padding: 15px;
+    height: 20vh!important;
+  }
+  .mil-service-card-sm h5 {
+    font-size: 1rem;
+  }
+  .mil-service-card-sm p {
+    font-size: 0.85rem;
+  }
+}
+
+

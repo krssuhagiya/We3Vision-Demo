@@ -1,0 +1,481 @@
+/* Footer Styles */
+.footer {
+  background: linear-gradient(135deg, #A80C4C, #090939, #421256, #531C9B);
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-content {
+  padding: 4rem 0 2rem 0;
+}
+
+.footer-section {
+  margin-bottom: 1rem;
+}
+
+/* Footer Logo and Company Info */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.company-subtitle {
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin: 0;
+  color: #d1d5db;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Welcome Message */
+.welcome-message {
+  margin-bottom: 1.5rem;
+}
+
+.welcome-message p {
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* Social Media Icons */
+.social-media {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+  /* background: transparent; */
+}
+
+.social-icon:hover {
+  /* background: white; */
+  color: #4B0082;
+  transform: translateY(-2px);
+}
+
+.social-icon span {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.instagram-icon {
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+}
+
+.instagram-icon::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #4B0082;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.instagram-icon::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: #4B0082;
+  border-radius: 50%;
+  top: 2px;
+  right: 2px;
+}
+
+/* Footer Headings */
+.footer-heading {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Footer Links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  opacity: 0.9;
+}
+
+.footer-links a:hover {
+  color: #8b5cf6;
+  opacity: 1;
+  transform: translateX(5px);
+}
+
+/* Contact Information */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.contact-label {
+  font-weight: 600;
+  color: #8b5cf6;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contact-link {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+  opacity: 0.9;
+}
+
+.contact-link:hover {
+  color: #8b5cf6;
+  opacity: 1;
+}
+
+.contact-address {
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* Email Subscription */
+.email-subscription {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.email-input-container {
+  display: flex;
+  height: 45px;
+  width: 100%;
+  max-width: 300px;
+  align-items: center;
+  background: linear-gradient(135deg, #F3D7FF, #E2BAD2, #F9C5C5, #C9C9F4);
+  color: black;
+  border-radius: 25px;
+  padding: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.email-input {
+  flex: 1;
+  border: none;
+  height: 35px;
+  background: transparent;
+  padding: 0.75rem;
+  font-size: 0.875rem;
+  color: #000000;
+  outline: none;
+  min-width: 0;
+}
+
+.email-input::placeholder {
+  color: #000000;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.email-submit-btn {
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(135deg, #A80C4C, #090939, #421256, #531C9B) !important;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.email-submit-btn:hover {
+  transform: scale(1.05);
+}
+
+.subscription-text {
+  color: white;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  padding: 1rem 0;
+}
+
+.copyright-line {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  margin-bottom: 1rem;
+}
+
+.copyright-text {
+  color: #d1d5db;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 0;
+  opacity: 0.7;
+}
+
+/* Mobile Only - Hide everything except footer */
+@media (max-width: 995px) {
+    .footer-content{
+        display: none;
+        padding: 0;
+        bottom: 0!important;
+    }
+}
+
+/* Responsive Design - Large Screens (1200px and above) */
+@media (min-width: 1200px) {
+  .footer-content {
+    padding: 5rem 0 3rem 0;
+  }
+  
+  .footer-heading {
+    font-size: 1.5rem;
+  }
+  
+  .welcome-message p {
+    font-size: 1rem;
+  }
+  
+  .footer-links a {
+    font-size: 1rem;
+  }
+  
+  .contact-link,
+  .contact-address {
+    font-size: 1rem;
+  }
+  
+  .subscription-text {
+    font-size: 1rem;
+  }
+  
+  .copyright-text {
+    font-size: 1.2rem;
+  }
+  
+  .email-input-container {
+    max-width: 350px;
+  }
+}
+
+/* Responsive Design - Medium Screens (768px to 1199px) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .footer-content {
+    padding: 3.5rem 0 2.5rem 0;
+  }
+  
+  .email-input-container {
+    max-width: 280px;
+  }
+}
+
+/* Responsive Design - Tablets (768px to 991px) */
+@media (max-width: 991px) and (min-width: 768px) {
+  .footer-content {
+    padding: 3rem 0 2rem 0;
+  }
+  
+  .footer-logo {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .logo-container {
+    margin-right: 0;
+  }
+  
+  .social-media {
+    justify-content: center;
+  }
+  
+  .footer-heading {
+    font-size: 1.1rem;
+  }
+  
+  .email-input-container {
+    max-width: 250px;
+    width: 100%;
+  }
+}
+
+/* Responsive Design - Mobile Large (576px to 767px) */
+@media (max-width: 767px) and (min-width: 576px) {
+  .footer-content {
+    padding: 2.5rem 0 1.5rem 0;
+  }
+  
+  .footer-logo {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .logo-container {
+    margin-right: 0;
+  }
+  
+  .social-media {
+    justify-content: center;
+  }
+  
+  .footer-heading {
+    font-size: 1rem;
+  }
+  
+  .welcome-message p {
+    font-size: 0.85rem;
+  }
+  
+  .footer-links a {
+    font-size: 0.85rem;
+  }
+  
+  .contact-link,
+  .contact-address {
+    font-size: 0.85rem;
+  }
+  
+  .email-input-container {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .subscription-text {
+    font-size: 0.8rem;
+  }
+  
+  .copyright-text {
+    font-size: 1rem;
+  }
+}
+
+/* Responsive Design - Mobile Small (up to 575px) */
+@media (max-width: 575px) {
+  .footer-content {
+    padding: 1rem 0 1rem 0;
+    height: 40px!important;
+  }
+   
+  .copyright-text {
+    font-size: 0.9rem;
+  }
+}
+
+/* Responsive Design - Extra Small Mobile (up to 375px) */
+@media (max-width: 375px) {
+  .footer-content {
+    padding: 1.5rem 0 1rem 0;
+  }
+  
+  .company-name {
+    font-size: 1.1rem;
+  }
+
+  .contact-link,
+  .contact-address {
+    font-size: 0.75rem;
+  }
+  
+  .email-input-container {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 40px;
+  }
+  
+  .email-input {
+    height: 30px;
+    font-size: 0.8rem;
+  }
+  
+  .email-submit-btn {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .subscription-text {
+    font-size: 0.7rem;
+  }
+  
+  .copyright-text {
+    font-size: 0.8rem;
+  }
+  
+  .social-icon {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .social-icon span {
+    font-size: 0.8rem;
+  }
+}

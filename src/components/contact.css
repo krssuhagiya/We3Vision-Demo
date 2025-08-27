@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.submit-btn{
+  background: linear-gradient(135deg, #6377f4 0%, #2a174d 100%);
+  color: #fff;
+  border: none;
+  border-radius: 99px;
+  /* padding: 14px 38px; */
+  font-size: 1.13rem;
+  font-weight: 700;
+  box-shadow: 0 2px 12px rgba(162, 89, 247, 0.13);
+  transition: background 0.18s, box-shadow 0.18s, color 0.18s;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.right-section.glass-form {
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 28px;
+  box-shadow: 0 8px 40px rgba(44, 44, 100, 0.13);
+  padding: 38px 32px 32px 32px;
+  backdrop-filter: blur(12px);
+  /* border: 2px solid rgba(102, 89, 247, 0.18); */
+  position: relative;
+  z-index: 2;
+}
+
+.right-section.glass-form:before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 28px;
+  padding: 2px;
+  background: linear-gradient(135deg, #6377f4 0%, #2a174d 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: -1;
+}
+.form-input:focus,
+.form-textarea:focus {
+  background: rgba(255, 255, 255, 0.484)!important;
+  box-shadow: 0 4px 24px rgba(162, 89, 247, 0.13);
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 18px 14px 10px 14px;
+  border: none;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.18);
+  color: #23236a;
+  font-size: 1.08rem;
+  font-weight: 500;
+  outline: none;
+  box-shadow: 0 2px 12px rgba(44, 44, 100, 0.07);
+  transition: background 0.18s, box-shadow 0.18s;
+}
+.container2{
+  width: 100vw;
+}
+.mil-link.mil-down-arrow svg {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.mil-link.mil-down-arrow:hover svg {
+  -webkit-transform: scale(1.15) rotate(90deg);
+  transform: scale(1.15) rotate(90deg);
+}
+.mil-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(135deg, #F3D7FF, #E2BAD2, #F9C5C5, #C9C9F4);
+  color: #333;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.mil-map-frame {
+  background-color: rgb(229, 229, 229);
+  pointer-events: all;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mil-map-frame .mil-map {
+  position: absolute;
+  top: -25%;
+  left: -25%;
+  width: 150%;
+  height: 150%;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+
+.mil-map-frame .mil-map iframe {
+  width: 100%;
+  height: 100%;
+}
+.eleven{
+  padding-left: 40px;
+  padding-right: 40px;
+}
